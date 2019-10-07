@@ -2,7 +2,7 @@
 include_once ("cricle.php");
 include_once ("cylinder.php");
 
-$cricle = new Cricle(5);
+$cricle = new Circle(5);
 $cylinder = new Cylinder(5,5);
 
 echo "Cricle area: ".$cricle->calculateArea()."<br>";
